@@ -1,0 +1,55 @@
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px; /* espessura da linha  */
+  font-weight: normal; /* Tira o Negrito  */
+  margin-bottom: 32px; /* coloca espaco entre h1 e hero  */
+}
+
+h1 span{ /* pega o h1 dentro do Span e coloca negrito, especifico ao elemento */
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero {
+  margin:0 auto 72px  ; /* Coloca Margim 0px pra cima, automatico na latererais e 72px para baixo  */
+  width: 592px;
+}
+
+#hero img{
+  margin-bottom: 72px ;
+}
+
+span ,a {
+  color: #FF9900;
+  
+}
+
+#footer a + a { /* Coloca margim de 28px entre as tags A  */
+  margin-left: 30px;
+}
+
+p, #footer {
+  columns: #7D7987;
+  font-size: 14px;
+  line-height: 56px;
+}
+#balls{
+position: fixed;
+bottom:  0px ;
+right: 0px;
+
+}
+
+.line { /* Cria uma linha  */
+  margin-left: 30px;
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px #ECEFF2 solid;
+}
