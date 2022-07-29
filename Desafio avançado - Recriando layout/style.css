@@ -87,7 +87,10 @@ main {
 }
 
 footer{
-  margin-top: 157px;
+  margin-top: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #instabox {
@@ -104,6 +107,6 @@ footer{
 
 #cadeado{
   position: fixed; 
-  bottom: 20;
-  left: 20;
+  bottom: 100px;
+  left: 20px;
 }
