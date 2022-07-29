@@ -55,12 +55,11 @@ main {
 }
 
 h1 {
+  
   font-size: 49px;
   line-height: 56px;
   color: #1F1534;
-
-  font-weight: normal;
-
+  font-weight: bold;
   width: 490px;
 }
 

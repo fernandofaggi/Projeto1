@@ -27,9 +27,21 @@ ul {
   padding: 0;
 }
 
+ul li a:hover{
+  color: #00BFA6;
+}
+
+ul li a:active{
+  color: #ff0000;
+}
+
 a {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+span {
+  color: #00BFA6;
 }
 
 h1 {
@@ -39,7 +51,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 40px;
 /* identical to box height, or 111% */
-
+font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
 
 color: #FFFFFF;
